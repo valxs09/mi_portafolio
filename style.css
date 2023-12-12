@@ -1,0 +1,74 @@
+ 
+#foto-perfil {
+    border-radius: 50%;
+}
+
+#proyecto1 {
+    background-image: url('unsplash-photo-1.jpg');
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+
+/* Añade este bloque de código CSS para quitar completamente el efecto de resaltado del header */
+.nav-pills .nav-link {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    color: #000; /* Puedes ajustar el color del texto a tu preferencia */
+}
+
+.nav-pills .nav-link:hover,
+.nav-pills .nav-link:focus {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    background-color: #c174cf;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);/* Puedes ajustar el color del texto al hacer hover o en foco */
+}
+
+.nav-pills .nav-link.active {
+    background-color: transparent !important;
+    border-bottom: none !important;
+    color: #ffffff; /* Puedes ajustar el color del texto activo */
+}
+
+header {
+    background-color: #c174cf;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+body {
+    background-color: #c174cf;
+}
+
+#sobreMi {
+    background-color: #c174cf;
+    color: #fff;
+}
+
+#habilidades {
+    background-color: #c174cf;
+    color: #fff;
+}
+
+#proyectos {
+    background-color: #c174cf;
+    color: #fff;
+}
